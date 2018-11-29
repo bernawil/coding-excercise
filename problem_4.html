@@ -1,0 +1,76 @@
+<html>
+  <head> 
+    <link rel="stylesheet" type="text/css" href="problem_4.css">
+  </head>
+
+  <body>
+
+    <div id="info">
+      <h1>CODING EXERCISE</h1>
+      <h3>Complete the form below and press OK to validate fields</h3>
+      <h3>Press Cancel to restart the form</h3>
+    </div>
+
+    <div id="form" class="form-container">
+      <div class="test-form flex-container">
+
+        <div class="form-group flex-item">
+          <label for="name">Name</label>
+          <div class="input-group">
+            <input name="name" id="name" data-validate="alpha"></input>
+            <div class="error-message"></div>
+          </div>
+        </div>
+
+        <div class="form-group flex-item">
+          <label for="address-1">Address 1</label>
+          <div class="input-group">
+            <input name="address-1" id="address-1" data-validate="alphanumeric"></input>
+            <div class="error-message"></div>
+          </div>
+        </div>
+
+        <div class="form-group flex-item">
+          <label for="address-2">Address 2</label>
+          <div class="input-group">
+            <input name="address-2" id="address-2" data-validate="alphanumeric"></input>
+            <div class="error-message"></div>
+          </div>
+        </div>
+
+        <div class="form-group flex-item">
+          <label for="state">State</label>
+          <div class="input-group">
+            <select name="state" id="state">
+              <option selected></option>
+              <option>New York</option>
+              <option>California</option>
+            </select>
+            <div class="error-message"></div>
+          </div>
+        </div>
+
+        <div class="form-group flex-item">
+          <label for="zipcode">Zip Code</label>
+          <div class="input-group">
+            <input name="zipcode" id="zipcode" data-validate="numeric"></input>
+            <div class="error-message"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="form-controls">
+        <div id="ok" class="btn-ok" id="ok"><span>OK</span></div>
+        <div id="cancel" class="btn-cancel" id="cancel"><span>CANCEL</span></div>
+      </div>
+
+    </div>
+
+  </body>
+
+  <footer>
+    <script src="./problem_4.js"></script>
+  </footer>
+
+</html>

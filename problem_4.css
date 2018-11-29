@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(0, 0, 0, 0.08);
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+#info {
+  padding: 6px 6px 6px 6px;
+  background-color: rgba(100, 100, 100, 0.5);
+  position: fixed;
+  width: 500px;
+  margin-top: 10px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+}
+
+.form-container {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  position: fixed;
+  top: 30vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 500px;
+  border-color: rgba(250, 250, 250, 0.08);
+  border-width: 1px 1px 1px 1px;
+}
+
+.input-group {
+  float: right;
+  width: 50%;
+}
+
+input, select {
+  width: 100%;
+}
+
+.form-group {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border-width: 1px 0 0 1px;
+}
+
+.form-controls {
+  padding: 10px 10px 10px 10px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form-controls span {
+  line-height: 40px;
+}
+
+.btn-cancel {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(150, 0, 0, 0.6);
+}
+
+.btn-ok {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 150, 0, 0.6);
+}
+
+.error-message {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.has-error {
+  background-color: rgba(150, 0, 0, 0.1);
+}
